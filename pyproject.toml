@@ -1,0 +1,20 @@
+[build-system]
+requires = ["uv_build~=0.8.15"]
+build-backend = "uv_build"
+
+[project]
+name = "char-literal-utf8"
+version = "0.1.0.dev1"
+description = "Feature flag for `char-literal`, to enable `utf8` feature"
+authors = [
+    { name = "Havsalt", email = "77575424+Havsalt@users.noreply.github.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.13"
+dependencies = []
+
+[project.urls]
+"Documentation" = "https://github.com/havsalt/char-literal-utf8#Docs.md"
+"Source Code" = "https://github.com/havsalt/char-literal-utf8"
+"Issues" = "https://github.com/havsalt/char-literal-utf8/issues"
