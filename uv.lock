@@ -1,0 +1,8 @@
+version = 1
+revision = 3
+requires-python = ">=3.10"
+
+[[package]]
+name = "char-literal-utf8"
+version = "0.1.0.dev2"
+source = { editable = "." }
